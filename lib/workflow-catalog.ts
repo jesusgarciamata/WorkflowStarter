@@ -29,6 +29,13 @@ export const workflowCatalog = [
     envPrefix: 'COSMIC_GERMAN',
     method: 'GET',
   },
+      {
+    id: 'cosmic-french',
+    name: 'Cosmic French',
+    envPrefix: 'COSMIC_FRENCH',
+    method: 'GET',
+  },
+
 ] as const;
 
 export type WorkflowId = (typeof workflowCatalog)[number]['id'];
